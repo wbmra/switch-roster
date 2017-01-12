@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>2</minor>
+    <test>1</test>
+    <modifier>.1</modifier>
+  </jmriversion>
+  <UserMessagePreferences class="jmri.managers.configurexml.DefaultUserMessagePreferencesXml">
+    <setting>apps.gui3.dp3.DecoderPro3Window.hideGroups</setting>
+    <comboBoxLastValue>
+      <comboBox name="NCE" lastSelected="NCE USB" />
+    </comboBoxLastValue>
+    <windowDetails class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program &lt;new loco&gt; in Service Mode (Programming Track)">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>1052.0</width>
+      <height>1405.0</height>
+    </windowDetails>
+    <windowDetails class="Create New Loco">
+      <locX>1014.0</locX>
+      <locY>469.0</locY>
+      <width>727.0</width>
+      <height>565.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:RNU/P1NEU/P1NWU/WYE">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>1037.0</width>
+      <height>1405.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:P1NU-WYE">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>1234.0</width>
+      <height>1094.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:P3NU">
+      <locX>22.0</locX>
+      <locY>23.0</locY>
+      <width>1052.0</width>
+      <height>1405.0</height>
+    </windowDetails>
+    <windowDetails class="apps.gui3.TabbedPreferencesAction$1:Preferences">
+      <locX>45.0</locX>
+      <locY>303.0</locY>
+      <width>1155.0</width>
+      <height>438.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.swing.RosterFrame$24:RNU/P1NEU/P1NWU/WYE">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>1052.0</width>
+      <height>1405.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.swing.RosterFrame$23:P1SU/P2NU/P2SU">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>864.0</width>
+      <height>1405.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.swing.RosterFrame$23:RNU/P1NEU/P1NWU/WYE">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>981.0</width>
+      <height>669.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.swing.RosterFrame$23:P3NU/P3SU">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>864.0</width>
+      <height>1405.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program RNU/P1NEU/P1NWU/WYE in Service Mode (Programming Track)">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>1336.0</width>
+      <height>1413.0</height>
+    </windowDetails>
+    <windowDetails class="apps.gui3.dp3.DecoderPro3Window:DecoderPro 3">
+      <locX>251.0</locX>
+      <locY>55.0</locY>
+      <width>1338.0</width>
+      <height>890.0</height>
+      <properties>
+        <property>
+          <key class="java.lang.String">selectedRosterGroup</key>
+        </property>
+        <property>
+          <key class="java.lang.String">selectedProgrammer</key>
+          <value class="java.lang.String">edit</value>
+        </property>
+      </properties>
+    </windowDetails>
+    <windowDetails class="apps.gui3.dp3.DecoderPro3Window:DecoderPro">
+      <locX>35.0</locX>
+      <locY>44.0</locY>
+      <width>1920.0</width>
+      <height>1173.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.swing.RosterFrame$23:P3NU">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>864.0</width>
+      <height>1405.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.Roster">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <properties>
+        <property>
+          <key class="java.lang.String">defaultRosterGroup</key>
+        </property>
+      </properties>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program P3NU in Service Mode (Programming Track)">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+      <width>1052.0</width>
+      <height>1405.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.logix.NXFrame">
+      <locX>22.0</locX>
+      <locY>45.0</locY>
+    </windowDetails>
+    <tableDetails>
+      <table name="apps.gui3.dp3.DecoderPro3Window:DecoderPro 3:roster">
+        <column name="Icon">
+          <order>2</order>
+          <width>47</width>
+        </column>
+        <column name="Road Number">
+          <order>5</order>
+          <width>105</width>
+        </column>
+        <column name="Model">
+          <order>7</order>
+          <width>58</width>
+        </column>
+        <column name="Decoder Model">
+          <order>3</order>
+          <width>114</width>
+        </column>
+        <column name="DCC Address">
+          <order>1</order>
+          <width>103</width>
+        </column>
+        <column name="Manufacturer">
+          <order>6</order>
+          <width>103</width>
+        </column>
+        <column name="Road Name">
+          <order>4</order>
+          <width>91</width>
+        </column>
+        <column name="ID">
+          <order>0</order>
+          <width>156</width>
+        </column>
+        <column name="Protocol">
+          <order>10</order>
+          <width>72</width>
+          <hidden>yes</hidden>
+        </column>
+        <column name="Date Modified">
+          <order>9</order>
+          <width>169</width>
+        </column>
+        <column name="Owner">
+          <order>8</order>
+          <width>60</width>
+        </column>
+      </table>
+    </tableDetails>
+  </UserMessagePreferences>
+  <!--Written by JMRI version 4.2.1-R6b484b4 on Sat Feb 06 14:54:01 PST 2016 $Id$-->
+</layout-config>

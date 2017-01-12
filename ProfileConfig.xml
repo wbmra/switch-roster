@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>2</minor>
+    <test>1</test>
+    <modifier>.1</modifier>
+  </jmriversion>
+  <connection userName="NCE" systemPrefix="N" manufacturer="NCE" disabled="no" port="/dev/tty.SLAB_USBtoUART" speed="9,600 baud" class="jmri.jmrix.nce.usbdriver.configurexml.ConnectionConfigXml">
+    <options>
+      <option>
+        <name>System</name>
+        <value>PowerCab</value>
+      </option>
+      <option>
+        <name>USB Version</name>
+        <value>V7.x.x</value>
+      </option>
+    </options>
+  </connection>
+  <fileLocations class="apps.configurexml.FileLocationPaneXml">
+    <fileLocation defaultScriptLocation="scripts:/" />
+    <fileLocation defaultUserLocation="profile:" />
+  </fileLocations>
+  <gui LAFclass="Mac OS X" class="apps.configurexml.GuiLafConfigPaneXml" LocaleLanguage="en" LocaleCountry="US" LocaleVariant="" fontsize="14" nonStandardMouseEvent="no" />
+  <console class="apps.configurexml.SystemConsoleConfigPanelXml" scheme="0" fontfamily="Monospaced" fontsize="12" fontstyle="0" wrapstyle="2" />
+  <programmer verifyBeforeWrite="no" class="jmri.jmrit.symbolicprog.configurexml.ProgrammerConfigPaneXml" />
+  <roster class="jmri.jmrit.roster.configurexml.RosterConfigPaneXml" ownerDefault="bill" />
+  <managerdefaults class="jmri.managers.configurexml.ManagerDefaultSelectorXml">
+    <setting>
+      <key>jmri.GlobalProgrammerManager</key>
+      <value>NCE</value>
+    </setting>
+    <setting>
+      <key>jmri.AddressedProgrammerManager</key>
+      <value>NCE</value>
+    </setting>
+    <setting>
+      <key>jmri.CommandStation</key>
+      <value>NCE</value>
+    </setting>
+    <setting>
+      <key>jmri.PowerManager</key>
+      <value>NCE</value>
+    </setting>
+    <setting>
+      <key>jmri.ConsistManager</key>
+      <value>NCE</value>
+    </setting>
+    <setting>
+      <key>jmri.ThrottleManager</key>
+      <value>NCE</value>
+    </setting>
+  </managerdefaults>
+  <!--Written by JMRI version 4.2.1-R6b484b4 on Sat Feb 06 14:53:28 PST 2016 $Id$-->
+</layout-config>
