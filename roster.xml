@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.3.2-R2edd195 on Wed Feb 08 19:39:29 PST 2017 $Id$-->
+  <!--Written by JMRI version 4.3.2-R2edd195 on Wed Mar 01 19:07:44 PST 2017 $Id$-->
   <roster>
+    <locomotive id="P1SL&amp;P1SL/P2NL" fileName="P1SL_P1SL_P2NL.xml" roadNumber="" roadName="" mfg="" owner="Nick Iaconis" model="" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>Mar 1, 2017 7:07:44 PM</dateUpdated>
+      <decoder model="SRC162" family="Stationary Decoder" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="1" longaddress="no" />
+        <number>1</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+    </locomotive>
     <locomotive id="P1SU/P2NU/P2SU" fileName="P1SU_P2NU_P2SU.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRRA" model="SRC162" dccAddress="1" comment="Accessory Decoder for P1SU, P2NU, and P2SU Layout control panels" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>Jan 25, 2017 8:24:25 PM</dateUpdated>
+      <dateUpdated>Nov 8, 2015 2:25:17 PM</dateUpdated>
       <decoder model="SRC162" family="Stationary Decoder" comment="" />
       <locoaddress>
         <dcclocoaddress number="1" longaddress="no" />
