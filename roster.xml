@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.3.2-R2edd195 on Wed Mar 01 19:07:44 PST 2017 $Id$-->
+  <!--Written by JMRI version 4.3.2-R2edd195 on Wed Mar 15 20:03:56 PDT 2017 $Id$-->
   <roster>
     <locomotive id="P1SL&amp;P1SL/P2NL" fileName="P1SL_P1SL_P2NL.xml" roadNumber="" roadName="" mfg="" owner="Nick Iaconis" model="" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>Mar 1, 2017 7:07:44 PM</dateUpdated>
@@ -30,6 +30,15 @@
         <protocol>dcc_short</protocol>
       </locoaddress>
     </locomotive>
+    <locomotive id="P3NL" fileName="P3NL.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>Mar 15, 2017 7:34:28 PM</dateUpdated>
+      <decoder model="SRC162" family="Stationary Decoder" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="1" longaddress="no" />
+        <number>1</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+    </locomotive>
     <locomotive id="P3NU" fileName="P3NU.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRRA" model="SRC162" dccAddress="1" comment="Decoder for 1/2 of the P3NU Yard Panel" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>Nov 14, 2015 10:38:31 AM</dateUpdated>
       <decoder model="SRC162" family="Stationary Decoder" comment="" />
@@ -41,6 +50,15 @@
     </locomotive>
     <locomotive id="P3NU/P3SU" fileName="P3NU_P3SU.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRRA" model="SRC162" dccAddress="1" comment="Decoder for 1/2 of the P3NU Yard Panel and P3SU" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>Nov 21, 2015 1:57:30 PM</dateUpdated>
+      <decoder model="SRC162" family="Stationary Decoder" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="1" longaddress="no" />
+        <number>1</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="P3SL" fileName="P3SL.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>Mar 15, 2017 8:03:56 PM</dateUpdated>
       <decoder model="SRC162" family="Stationary Decoder" comment="" />
       <locoaddress>
         <dcclocoaddress number="1" longaddress="no" />
