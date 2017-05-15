@@ -39,6 +39,15 @@
         <protocol>dcc_short</protocol>
       </locoaddress>
     </locomotive>
+    <locomotive id="P2SL" fileName="P2SL.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>May 11, 2017 6:19:14 PM</dateUpdated>
+      <decoder model="SRC162" family="Stationary Decoder" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="1" longaddress="no" />
+        <number>1</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+    </locomotive>
     <locomotive id="P3NL" fileName="P3NL.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>Mar 15, 2017 7:34:28 PM</dateUpdated>
       <decoder model="SRC162" family="Stationary Decoder" comment="" />
