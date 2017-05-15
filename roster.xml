@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.3.2-R2edd195 on Sat Apr 29 14:20:28 PDT 2017 $Id$-->
+  <!--Written by JMRI version 4.3.2-R2edd195 on Wed May 10 20:46:41 PDT 2017 $Id$-->
   <roster>
     <locomotive id="P1NL" fileName="P1NL.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>Apr 1, 2017 3:12:18 PM</dateUpdated>
@@ -104,6 +104,15 @@
     </locomotive>
     <locomotive id="RSL" fileName="RSL.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>Apr 29, 2017 2:20:28 PM</dateUpdated>
+      <decoder model="SRC162" family="Stationary Decoder" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="1" longaddress="no" />
+        <number>1</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="STAGING" fileName="STAGING.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>May 10, 2017 8:46:41 PM</dateUpdated>
       <decoder model="SRC162" family="Stationary Decoder" comment="" />
       <locoaddress>
         <dcclocoaddress number="1" longaddress="no" />
