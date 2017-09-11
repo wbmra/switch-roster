@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.3.2-R2edd195 on Wed Mar 15 19:34:28 PDT 2017 $Id$-->
+  <!--Written by JMRI version 4.3.2-R2edd195 on Sat Sep 09 16:44:41 PDT 2017 $Id$-->
   <locomotive id="P3NL" fileName="P3NL.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>Mar 15, 2017 7:34:28 PM</dateUpdated>
+    <dateUpdated>Sep 9, 2017 4:44:41 PM</dateUpdated>
     <decoder model="SRC162" family="Stationary Decoder" comment="" />
     <locoaddress>
       <dcclocoaddress number="1" longaddress="no" />
@@ -16,7 +16,7 @@
         <varValue item="Switch Address" value="1" />
         <varValue item="Version ID" value="0" />
         <varValue item="Manufacturer ID" value="25" />
-        <varValue item="Select Power On Option" value="0" />
+        <varValue item="Select Power On Option" value="1" />
         <varValue item="Ops Mode" value="0" />
         <varValue item="DCC gateway" value="0" />
         <varValue item="Bus interface" value="0" />
@@ -573,7 +573,7 @@
       <CVvalue name="6" value="0" />
       <CVvalue name="7" value="0" />
       <CVvalue name="8" value="25" />
-      <CVvalue name="9" value="0" />
+      <CVvalue name="9" value="1" />
       <CVvalue name="10" value="0" />
       <CVvalue name="11" value="0" />
       <CVvalue name="12" value="0" />
