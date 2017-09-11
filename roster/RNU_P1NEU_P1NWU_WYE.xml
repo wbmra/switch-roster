@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.3.2-R2edd195 on Wed Jan 11 22:38:19 PST 2017 $Id$-->
-  <locomotive id="RNU/P1NEU/P1NWU/WYE" fileName="RNU_P1NEU_P1NWU_WYE.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>Jan 11, 2017 10:38:19 PM</dateUpdated>
+  <!--Written by JMRI version 4.3.2-R2edd195 on Sat Sep 09 16:55:39 PDT 2017 $Id$-->
+  <locomotive id="RNU/P1NEU/P1NWU/WYE" fileName="RNU_P1NEU_P1NWU_WYE.xml" roadNumber="" roadName="" mfg="Team Digital" owner="WBMRA" model="SRC162" dccAddress="1" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>Sep 9, 2017 4:55:39 PM</dateUpdated>
     <decoder model="SRC162" family="Stationary Decoder" comment="" />
     <locoaddress>
       <dcclocoaddress number="1" longaddress="no" />
